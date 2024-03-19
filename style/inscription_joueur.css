@@ -1,0 +1,59 @@
+.frame-1 {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.rectangle {
+    margin-bottom: 20px;
+}
+.rectangle input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.rectangle input:focus {
+    outline: none;
+    border-color: #19C7ED;
+}
+.create-account {
+    text-align: center;
+}
+.create-account a {
+    color: #19C7ED;
+    text-decoration: none;
+}
+.create-account a:hover {
+    text-decoration: underline;
+}
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #19C7ED;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.login-button:hover {
+    background-color: #33b34f;
+}
+.error-message {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+}
+.success-message {
+    color: green;
+    margin-top: 10px;
+    text-align: center;
+}
